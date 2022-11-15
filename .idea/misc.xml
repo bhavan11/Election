@@ -3,7 +3,7 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/election-booth-share/pom.xml" />
+        <option value="$PROJECT_DIR$/election-booth-core-util/pom.xml" />
       </list>
     </option>
   </component>

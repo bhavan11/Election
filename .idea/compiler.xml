@@ -6,15 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="election-booth-share" />
+        <module name="election-booth-core-utils" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="election-booth-core-util" target="11" />
+      <module name="election-booth-core-utility" target="11" />
+      <module name="election-booth-core-utils" target="1.7" />
       <module name="election-booth-share" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="election-booth-core-util" options="-parameters" />
+      <module name="election-booth-core-utility" options="-parameters" />
       <module name="election-booth-share" options="-parameters" />
     </option>
   </component>
